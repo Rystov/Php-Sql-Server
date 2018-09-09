@@ -1,5 +1,5 @@
 <?php
-$serverName = "BROADCAST-PC\SQLSERVER"; //<?php
+$serverName = "AST-PC\SQLSERVER"; //<?php
 $connectionInfo = array( "Database"=>"d", "UID"=>"root", "PWD"=>"root");
 $conn = sqlsrv_connect( $serverName, $connectionInfo);
 if( $conn ) {
